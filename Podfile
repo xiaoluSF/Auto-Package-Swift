@@ -3,7 +3,7 @@ use_frameworks!
 inhibit_all_warnings!
 
 
-target 'Auto-Package-Swift' do
+target 'PackTool' do
   
   pod 'RainbowSwift', '~> 3.0'
 
