@@ -10,7 +10,7 @@
 		63C2235A861CC269D313ED40 /* Pods_iOSPackage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D15B65C951AAD74F81698D /* Pods_iOSPackage.framework */; };
 		D50E430721F95D8D006848BF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E430621F95D8D006848BF /* main.swift */; };
 		D50E432121F95DC9006848BF /* ExportArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E430E21F95DC9006848BF /* ExportArchive.swift */; };
-		D50E432221F95DC9006848BF /* Packge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E430F21F95DC9006848BF /* Packge.swift */; };
+		D50E432221F95DC9006848BF /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E430F21F95DC9006848BF /* Package.swift */; };
 		D50E432321F95DC9006848BF /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E431021F95DC9006848BF /* Archive.swift */; };
 		D50E432421F95DC9006848BF /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E431121F95DC9006848BF /* Version.swift */; };
 		D50E432521F95DC9006848BF /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E431221F95DC9006848BF /* Command.swift */; };
@@ -44,7 +44,7 @@
 		D50E430321F95D8D006848BF /* iOSPackage */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iOSPackage; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50E430621F95D8D006848BF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D50E430E21F95DC9006848BF /* ExportArchive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExportArchive.swift; sourceTree = "<group>"; };
-		D50E430F21F95DC9006848BF /* Packge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Packge.swift; sourceTree = "<group>"; };
+		D50E430F21F95DC9006848BF /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		D50E431021F95DC9006848BF /* Archive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Archive.swift; sourceTree = "<group>"; };
 		D50E431121F95DC9006848BF /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
 		D50E431221F95DC9006848BF /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 				D50E431321F95DC9006848BF /* Upload.swift */,
 				D50E431621F95DC9006848BF /* Configuration.swift */,
 				D50E431121F95DC9006848BF /* Version.swift */,
-				D50E430F21F95DC9006848BF /* Packge.swift */,
+				D50E430F21F95DC9006848BF /* Package.swift */,
 			);
 			path = Command;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 				D50E432C21F95DC9006848BF /* ConfigurationService.swift in Sources */,
 				D50E432921F95DC9006848BF /* Configuration.swift in Sources */,
 				D50E432E21F95DC9006848BF /* FileManagerExtension.swift in Sources */,
-				D50E432221F95DC9006848BF /* Packge.swift in Sources */,
+				D50E432221F95DC9006848BF /* Package.swift in Sources */,
 				D50E432D21F95DC9006848BF /* ArrayExtension.swift in Sources */,
 				D50E432721F95DC9006848BF /* Build.swift in Sources */,
 				D50E433021F95DC9006848BF /* ArgumentsDecoder.swift in Sources */,

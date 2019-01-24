@@ -16,7 +16,7 @@ class Main: Command {
     }
     var commands: [Command]? {
         return [
-            Packge(),
+            Package(),
             Build(),
             Archive(),
             ExportArchive(),

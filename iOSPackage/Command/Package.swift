@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class Packge: Command {
+class Package: Command {
     var name: String {
         return "packge"
     }
