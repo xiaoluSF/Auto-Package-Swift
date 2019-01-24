@@ -106,8 +106,8 @@
 		D50E430521F95D8D006848BF /* iOSPackage */ = {
 			isa = PBXGroup;
 			children = (
-				D50E430D21F95DC9006848BF /* Command */,
 				D50E431B21F95DC9006848BF /* Common */,
+				D50E430D21F95DC9006848BF /* Command */,
 				D50E431721F95DC9006848BF /* Service */,
 				D50E430621F95D8D006848BF /* main.swift */,
 			);
@@ -117,15 +117,15 @@
 		D50E430D21F95DC9006848BF /* Command */ = {
 			isa = PBXGroup;
 			children = (
-				D50E430E21F95DC9006848BF /* ExportArchive.swift */,
-				D50E430F21F95DC9006848BF /* Packge.swift */,
-				D50E431021F95DC9006848BF /* Archive.swift */,
-				D50E431121F95DC9006848BF /* Version.swift */,
 				D50E431221F95DC9006848BF /* Command.swift */,
-				D50E431321F95DC9006848BF /* Upload.swift */,
-				D50E431421F95DC9006848BF /* Build.swift */,
 				D50E431521F95DC9006848BF /* Main.swift */,
+				D50E431421F95DC9006848BF /* Build.swift */,
+				D50E431021F95DC9006848BF /* Archive.swift */,
+				D50E430E21F95DC9006848BF /* ExportArchive.swift */,
+				D50E431321F95DC9006848BF /* Upload.swift */,
 				D50E431621F95DC9006848BF /* Configuration.swift */,
+				D50E431121F95DC9006848BF /* Version.swift */,
+				D50E430F21F95DC9006848BF /* Packge.swift */,
 			);
 			path = Command;
 			sourceTree = "<group>";

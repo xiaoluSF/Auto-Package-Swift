@@ -26,6 +26,5 @@ class Packge: Command {
     var usage: String?
 
     func handler(arguments: [String]) {
-
     }
 }
