@@ -2,7 +2,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 inhibit_all_warnings!
 
-target 'PackTool' do
+target 'iOSPackage' do
   
   pod 'RainbowSwift', '~> 3.0'
 

@@ -1,9 +1,9 @@
 //
 //  main.swift
-//  PackTool
+//  iOSPackage
 //
-//  Created by XiaoLu on 2019/1/22.
-//  Copyright © 2019 xl. All rights reserved.
+//  Created by 翟泉 on 2019/1/24.
+//  Copyright © 2019 Cryptape. All rights reserved.
 //
 
 import Foundation
@@ -13,3 +13,5 @@ import Foundation
 let VERSION = "0.1.0"
 
 Main().handler(arguments: CommandLine.arguments.deleteFirst)
+
+
