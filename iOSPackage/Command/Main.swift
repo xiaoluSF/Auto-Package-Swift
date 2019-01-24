@@ -10,7 +10,7 @@ import Cocoa
 import RainbowSwift
 
 class Main: Command {
-    var name: String { return "packTool" }
+    var name: String { return "iospackage" }
     var message: String? {
         return ""
     }
