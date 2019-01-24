@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+//CommandLine.arguments = ["packTool", "upload"]
 
+let VERSION = "0.1.0"
+
+Main().handler(arguments: CommandLine.arguments.deleteFirst)

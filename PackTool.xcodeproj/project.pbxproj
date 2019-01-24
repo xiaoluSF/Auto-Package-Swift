@@ -9,6 +9,23 @@
 /* Begin PBXBuildFile section */
 		8928F9A321F6C75B00172B35 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8928F9A221F6C75B00172B35 /* main.swift */; };
 		9E495D6914B5C0306AF013A8 /* Pods_PackTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862E93139169892C442F40F6 /* Pods_PackTool.framework */; };
+		D50E42C421F80831006848BF /* Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E42C321F80831006848BF /* Build.swift */; };
+		D50E42C621F80DE7006848BF /* CommandLineExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E42C521F80DE7006848BF /* CommandLineExtension.swift */; };
+		D50E42C821F80FC5006848BF /* ArgumentsDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E42C721F80FC5006848BF /* ArgumentsDecoder.swift */; };
+		D50E42CA21F8141C006848BF /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E42C921F8141C006848BF /* FileManagerExtension.swift */; };
+		D50E42CE21F819F4006848BF /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E42CD21F819F4006848BF /* StringExtension.swift */; };
+		D50E42F721F86693006848BF /* FirimService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E42F621F86693006848BF /* FirimService.swift */; };
+		D50E42F921F867DD006848BF /* GitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E42F821F867DD006848BF /* GitService.swift */; };
+		D5C036A421F7328300713CA6 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C036A321F7328300713CA6 /* Command.swift */; };
+		D5C036A621F734DA00713CA6 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C036A521F734DA00713CA6 /* Main.swift */; };
+		D5C036A821F735ED00713CA6 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C036A721F735ED00713CA6 /* Archive.swift */; };
+		D5C036AA21F7369000713CA6 /* ExportArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C036A921F7369000713CA6 /* ExportArchive.swift */; };
+		D5C036AC21F7396000713CA6 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C036AB21F7396000713CA6 /* ArrayExtension.swift */; };
+		D5C036AE21F73B0F00713CA6 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C036AD21F73B0F00713CA6 /* Upload.swift */; };
+		D5C036B021F73C2400713CA6 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C036AF21F73C2400713CA6 /* Version.swift */; };
+		D5C036B221F73CC400713CA6 /* Packge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C036B121F73CC400713CA6 /* Packge.swift */; };
+		D5C036B421F73E9F00713CA6 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C036B321F73E9F00713CA6 /* Configuration.swift */; };
+		D5C036B621F746EB00713CA6 /* ConfigurationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C036B521F746EB00713CA6 /* ConfigurationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +46,23 @@
 		862E93139169892C442F40F6 /* Pods_PackTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PackTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8928F99F21F6C75B00172B35 /* PackTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PackTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		8928F9A221F6C75B00172B35 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D50E42C321F80831006848BF /* Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Build.swift; sourceTree = "<group>"; };
+		D50E42C521F80DE7006848BF /* CommandLineExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandLineExtension.swift; sourceTree = "<group>"; };
+		D50E42C721F80FC5006848BF /* ArgumentsDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsDecoder.swift; sourceTree = "<group>"; };
+		D50E42C921F8141C006848BF /* FileManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
+		D50E42CD21F819F4006848BF /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		D50E42F621F86693006848BF /* FirimService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirimService.swift; sourceTree = "<group>"; };
+		D50E42F821F867DD006848BF /* GitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitService.swift; sourceTree = "<group>"; };
+		D5C036A321F7328300713CA6 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		D5C036A521F734DA00713CA6 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		D5C036A721F735ED00713CA6 /* Archive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Archive.swift; sourceTree = "<group>"; };
+		D5C036A921F7369000713CA6 /* ExportArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportArchive.swift; sourceTree = "<group>"; };
+		D5C036AB21F7396000713CA6 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		D5C036AD21F73B0F00713CA6 /* Upload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
+		D5C036AF21F73C2400713CA6 /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		D5C036B121F73CC400713CA6 /* Packge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Packge.swift; sourceTree = "<group>"; };
+		D5C036B321F73E9F00713CA6 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		D5C036B521F746EB00713CA6 /* ConfigurationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +98,9 @@
 		8928F9A121F6C75B00172B35 /* PackTool */ = {
 			isa = PBXGroup;
 			children = (
+				D5C036A221F7326700713CA6 /* Common */,
+				D5C036A121F7326600713CA6 /* Command */,
+				D5C036A021F7326600713CA6 /* Service */,
 				8928F9A221F6C75B00172B35 /* main.swift */,
 			);
 			path = PackTool;
@@ -84,6 +121,44 @@
 				52E0194548BE8BACA66B556B /* Pods-PackTool.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5C036A021F7326600713CA6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D5C036B521F746EB00713CA6 /* ConfigurationService.swift */,
+				D50E42F621F86693006848BF /* FirimService.swift */,
+				D50E42F821F867DD006848BF /* GitService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D5C036A121F7326600713CA6 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				D5C036A321F7328300713CA6 /* Command.swift */,
+				D5C036A521F734DA00713CA6 /* Main.swift */,
+				D50E42C321F80831006848BF /* Build.swift */,
+				D5C036A721F735ED00713CA6 /* Archive.swift */,
+				D5C036A921F7369000713CA6 /* ExportArchive.swift */,
+				D5C036AD21F73B0F00713CA6 /* Upload.swift */,
+				D5C036B321F73E9F00713CA6 /* Configuration.swift */,
+				D5C036AF21F73C2400713CA6 /* Version.swift */,
+				D5C036B121F73CC400713CA6 /* Packge.swift */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		D5C036A221F7326700713CA6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D5C036AB21F7396000713CA6 /* ArrayExtension.swift */,
+				D50E42C521F80DE7006848BF /* CommandLineExtension.swift */,
+				D50E42C921F8141C006848BF /* FileManagerExtension.swift */,
+				D50E42CD21F819F4006848BF /* StringExtension.swift */,
+				D50E42C721F80FC5006848BF /* ArgumentsDecoder.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,7 +244,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C036AE21F73B0F00713CA6 /* Upload.swift in Sources */,
+				D5C036A621F734DA00713CA6 /* Main.swift in Sources */,
+				D50E42C421F80831006848BF /* Build.swift in Sources */,
+				D50E42C821F80FC5006848BF /* ArgumentsDecoder.swift in Sources */,
+				D50E42CE21F819F4006848BF /* StringExtension.swift in Sources */,
+				D5C036AA21F7369000713CA6 /* ExportArchive.swift in Sources */,
+				D5C036B621F746EB00713CA6 /* ConfigurationService.swift in Sources */,
 				8928F9A321F6C75B00172B35 /* main.swift in Sources */,
+				D5C036AC21F7396000713CA6 /* ArrayExtension.swift in Sources */,
+				D50E42F721F86693006848BF /* FirimService.swift in Sources */,
+				D50E42C621F80DE7006848BF /* CommandLineExtension.swift in Sources */,
+				D5C036A821F735ED00713CA6 /* Archive.swift in Sources */,
+				D50E42F921F867DD006848BF /* GitService.swift in Sources */,
+				D50E42CA21F8141C006848BF /* FileManagerExtension.swift in Sources */,
+				D5C036B421F73E9F00713CA6 /* Configuration.swift in Sources */,
+				D5C036B021F73C2400713CA6 /* Version.swift in Sources */,
+				D5C036A421F7328300713CA6 /* Command.swift in Sources */,
+				D5C036B221F73CC400713CA6 /* Packge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
